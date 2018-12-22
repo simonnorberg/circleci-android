@@ -1,4 +1,4 @@
-FROM circleci/android:api-27-alpha
+FROM circleci/android:api-28-alpha
 LABEL maintainer "simon.norberg@gmail.com"
 
 RUN sdkmanager "ndk-bundle"
